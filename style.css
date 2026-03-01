@@ -1,0 +1,104 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body */
+body {
+    background: #0f0f0f;
+    color: white;
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background: #111;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #00ffcc;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #00ffcc;
+}
+
+.search-box input {
+    padding: 6px 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h1 {
+    font-size: 50px;
+    color: #00ffcc;
+}
+
+.hero p {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #ccc;
+}
+
+/* Brand Section */
+.brands {
+    padding: 50px;
+    text-align: center;
+}
+
+.brands h2 {
+    margin-bottom: 30px;
+    font-size: 32px;
+}
+
+.brand-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.brand-card {
+    background: #1c1c1c;
+    padding: 40px;
+    border-radius: 10px;
+    font-size: 20px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.brand-card:hover {
+    background: #00ffcc;
+    color: black;
+    transform: scale(1.05);
+}
+.brand-link {
+    text-decoration: none;
+    color: inherit;
+    display:block;
+}
